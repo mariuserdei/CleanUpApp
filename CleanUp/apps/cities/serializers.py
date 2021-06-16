@@ -5,4 +5,4 @@ from .models import Cities
 class CitiesSerializer(serializers.ModelSerializer):
     class Meta:
         model = Cities
-        fields = "__all__"
+        fields = ['name', 'zip_code']
